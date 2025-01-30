@@ -1,0 +1,10 @@
+/meu_mvc/
+│-- /config/        -> Arquivos de configuração
+│-- /helpers/       -> Funções auxiliares
+│-- /models/        -> Modelos (interagem com o banco de dados)
+│-- /views/         -> Arquivos de visualização (HTML)
+│-- /controllers/   -> Controladores (lógica do aplicativo)
+│-- /public/        -> Pasta pública (index.php, assets, CSS, JS, imagens)
+│   ├── index.php   -> Arquivo principal de entrada
+│-- /core/          -> Classes principais (roteamento, controlador base)
+│-- .htaccess       -> Redirecionamento para /public/
