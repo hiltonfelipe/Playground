@@ -1,7 +1,12 @@
 <?php
 class Usuario {
-    public function getNome() {
-        return "João da Silva";
+    private $db;
+    public function __construct() {
+        $this->db = new Database();
+    }
+    public function getNomes() {
+        $users = $this->db->fetchAll("SELECT * FROM users");
+        return $users;
     }
 }
 ?>

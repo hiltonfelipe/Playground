@@ -6,6 +6,10 @@
     <title>Home</title>
 </head>
 <body>
-    <h1><?= $data['nome'] ?></h1>
+    <?php 
+        echo "<pre>";
+        print_r($data);
+        echo "</pre>";
+    ?>
 </body>
 </html>

@@ -1,9 +1,9 @@
 <?php
-use models\Usuario;
 class HomeController extends Controller {
     public function index() {
-        $usuario = $this->model('Usuario');
-        $data['nome'] = $usuario->getNome();
+        $DT= $this->model('Datatables');
+        $data['usuarios'] = $DT->getUsuarios();
+
 
         $this->view('home', $data);
     }
