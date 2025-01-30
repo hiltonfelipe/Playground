@@ -1,0 +1,7 @@
+/sistema/vendor/
+/sistema/writable/*
+/sistema/tests/*
+/sistema/logs/*
+/sistema/.env
+/sistema/.env_
+/sistema/install.lock
